@@ -2,33 +2,14 @@
 title: Home
 ---
 
-# Workshop Template!
+# About the workshop
+Reasoning about interventions, the core of causality, is fundamental to solving many of modern AI's most pressing challenges, including trustworthiness, reliability, explainability, and out-of-distribution generalization. Yet, recent AI breakthroughs have been overwhelmingly driven by scaling models on simple predictive objectives without explicit causal modeling, such as next-token prediction for Large Language Models or denoising prediction for diffusion models. This success raises a critical question for the community: Can causal abilities emerge from scale alone, and if not, what can explicit causal modeling bring that scale cannot? This workshop aims to understand this question and explore the potential synergy between scaling predictive methods and formal causal modeling to build the next generation of AI.
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+# Schedule
+TBA
 
-A minimal Jekyll theme for creating workshop websites.
+# Speakers
+TBA
 
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template-b](https://evanwill.github.io/workshop-template-b/), Bootstrap version.
-
-<div class="toc" markdown="1">
-## Contents:
-
-{% for lesson in site.pages %}
-{% if lesson.nav == true %}- [{{ lesson.title }}]({{ lesson.url | relative_url }}){% endif %}
-{% endfor %}
-</div>
-
-Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
- 
-> built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
->
-> images and content: cc-by-sa <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a> {{ site.pub_year}} (get [source code]({{ site.repo }})).
-> Last build date: {{ site.time | date: "%Y-%m-%d" }}.
->
-> <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License" /></a>
+# Call for Papers
+TBA
