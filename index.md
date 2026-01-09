@@ -3,7 +3,7 @@ title: Home
 ---
 
 <div class="float-right-figure">
-  {% include figure.html img="Logo.png" alt="logo" width="40%" %}
+  {% include figure.html img="Logo.png" alt="logo" width="100%" %}
 </div>
 
 # About the workshop
