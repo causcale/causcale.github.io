@@ -60,3 +60,15 @@ $on-laptop:        800px !default;
   "layout",
   "custom"
 ;
+
+.float-right-figure {
+  float: right;
+  margin: 0 0 1rem 1.25rem; /* left margin creates the gap from text */
+  max-width: 40%;
+}
+
+.float-right-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
