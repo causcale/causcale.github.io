@@ -72,3 +72,10 @@ $on-laptop:        800px !default;
   width: 100%;
   height: auto;
 }
+
+.about-section p {
+  text-align: justify;
+  text-align-last: left;   /* keeps the last line natural */
+  hyphens: auto;           /* reduces ugly large spaces */
+}
+
