@@ -14,12 +14,11 @@ Reasoning about interventions, the core of causality, is fundamental to solving 
 
 </div>
 
+# Workshop Goals
+1. Can causal abilities emerge from scale alone, and if not, what can explicit causal modeling bring that scale cannot?
+2. Is scaling sufficient for building intelligent systems? If not, is causal reasoning needed? What are the limitations and opportunities of scaling AI models?
+3. What are the challenges in developing scalable causal algorithms that can be potentially integrated into existing AI models?
+4. What ingredients are necessary to design robust, interactive world models?
 
-# Schedule
-TBA
 
-# Speakers
-TBA
 
-# Call for Papers
-TBA
