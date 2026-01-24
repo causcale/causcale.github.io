@@ -6,11 +6,6 @@ nav: true
 # Call for Papers
 We invite submissions exploring the synergy between scaling predictive methods and causal modeling to build the next generation of trustworthy and reliable AI.
 
-## Important Dates
-Submission deadline: February 27, 2026 AOE
-Notification of acceptance: March 18, 2026 AOE
-Workshop Date: May 5, 2026
-
 ## Topics
 Particular interest in papers that interface and provide bridges between topics in AI scaling and causality. Other potential topics include, but are not limited to:
 1. Emergence of causal abilities in foundation models (or the failure thereof)
