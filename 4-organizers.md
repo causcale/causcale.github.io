@@ -5,4 +5,6 @@ nav: true
 
 # Organizers
 
-TBA
+- David Inouye
+- Bryon Aragam
+- Murat Kocaoglu
