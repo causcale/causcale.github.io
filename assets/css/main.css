@@ -1727,10 +1727,16 @@ section,
   display: none !important;
 }
 
+/* Speakers: keep name/affiliation visible but disable hover slide */
 #speakers .member .member-info {
-  display: none !important;
+  inset: auto 0 0 0 !important;   /* pin it at the bottom */
+  bottom: 0 !important;
+  transition: none !important;    /* no animation */
 }
 
+#speakers .member:hover .member-info {
+  bottom: 0 !important;           /* prevent slide */
+}
 
 /*--------------------------------------------------------------
 # Starter Section Section
