@@ -1843,6 +1843,18 @@ section,
 #organizers .member .member-info span {
   color: var(--heading-color);
 }
+
+#speakers .member .member-info {
+  position: static;
+  background: transparent;
+  inset: auto;
+  padding: 12px 0 0 0;
+}
+
+#speakers .member .member-info h4,
+#speakers .member .member-info span {
+  color: var(--heading-color);
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
