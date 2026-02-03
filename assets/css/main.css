@@ -1855,6 +1855,13 @@ section,
 #speakers .member .member-info span {
   color: var(--heading-color);
 }
+
+/* Force centering for speaker/organizer labels */
+#speakers .member-info,
+#organizers .member-info {
+  text-align: center;
+  width: 100%;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
