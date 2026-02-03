@@ -1682,6 +1682,19 @@ section,
   margin-bottom: 10px;
 }
 
+/* Make all member photos uniform across sections */
+.member .member-img {
+  height: 320px;        /* set to whatever matches invited speakers */
+  overflow: hidden;
+}
+
+.member .member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
