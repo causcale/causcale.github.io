@@ -1788,13 +1788,24 @@ section,
 #speakers .member .member-info span { color: var(--heading-color) !important; }
 #speakers .member .member-info h4  { color: var(--heading-color) !important; }
 
-/* Force organizer text to be visible (template likely sets opacity:0 until hover) */
+/* ORGANIZERS: override hover-hidden defaults */
 #organizers .member .member-info{
+  position: static !important;
+  inset: auto !important;
+  background: transparent !important;
+  padding: 12px 0 0 0 !important;
+
   opacity: 1 !important;
   visibility: visible !important;
   transform: none !important;
 }
 
+/* SPEAKERS: ensure affiliation is not hidden by template defaults */
+#speakers .member .member-info span{
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
 
 /*--------------------------------------------------------------
 # Starter Section Section
