@@ -1784,6 +1784,36 @@ section,
   margin-top: 4px;
 }
 
+/* Speakers: show name + affiliation below photo, always visible */
+#speakers .member {
+  overflow: visible;
+}
+
+#speakers .member .member-info {
+  position: static !important;      /* remove overlay positioning */
+  inset: auto !important;
+  background: transparent !important;
+  padding: 12px 0 0 0 !important;
+  transition: none !important;
+}
+
+#speakers .member:hover .member-info {
+  bottom: auto !important;          /* kill hover slide rule */
+}
+
+#speakers .member .member-info h4 {
+  color: var(--heading-color) !important;
+  margin: 0 0 6px 0 !important;
+  font-size: calc(20px * var(--font-scale)) !important;
+  font-weight: 700 !important;
+}
+
+#speakers .member .member-info span {
+  display: block !important;
+  color: color-mix(in srgb, var(--default-color), transparent 25%) !important;
+  font-size: calc(16px * var(--font-scale)) !important;
+  font-style: normal !important;
+}
 
 /*--------------------------------------------------------------
 # Starter Section Section
