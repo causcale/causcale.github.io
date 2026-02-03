@@ -1806,6 +1806,7 @@ section,
   opacity: 1 !important;
   visibility: visible !important;
 }
+#organizers .member-info { background: red !important; }
 
 /*--------------------------------------------------------------
 # Starter Section Section
