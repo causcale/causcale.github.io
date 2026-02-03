@@ -1738,6 +1738,37 @@ section,
   bottom: 0 !important;           /* prevent slide */
 }
 
+/* Make speaker cards use the simple "organizer" style: text below photo, no overlay */
+#speakers.speakers .member {
+  overflow: visible;
+  background: transparent;
+}
+
+#speakers.speakers .member .member-info {
+  position: static !important;     /* not absolute overlay */
+  inset: auto !important;
+  bottom: auto !important;
+  background: transparent !important;
+  padding: 12px 0 0 0 !important;
+  transition: none !important;
+  text-align: left;               /* optional: match organizer look */
+}
+
+#speakers.speakers .member:hover .member-info {
+  bottom: auto !important;        /* prevent slide-up behavior */
+}
+
+#speakers.speakers .member .member-info-content h4,
+#speakers.speakers .member .member-info-content span {
+  color: var(--heading-color) !important;  /* readable text */
+}
+
+#speakers.speakers .member .member-info-content span {
+  color: color-mix(in srgb, var(--default-color), transparent 30%) !important;
+  font-style: normal;             /* optional: remove italic */
+}
+
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
