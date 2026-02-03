@@ -1695,6 +1695,20 @@ section,
   object-position: center;
   display: block;
 }
+
+/* Uniform card photo size across speakers/organizers */
+.member .member-img {
+  height: 320px;     /* adjust until it matches your invited speaker look */
+  overflow: hidden;
+}
+
+.member .member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
