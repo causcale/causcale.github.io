@@ -1814,6 +1814,8 @@ section,
   font-size: calc(16px * var(--font-scale)) !important;
   font-style: normal !important;
 }
+#speakers .member .member-info span { color: var(--default-color) !important; }
+#speakers .member .member-info h4  { color: var(--heading-color) !important; }
 
 /*--------------------------------------------------------------
 # Starter Section Section
