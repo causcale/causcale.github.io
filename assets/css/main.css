@@ -975,7 +975,8 @@ section,
 # Speakers Section
 --------------------------------------------------------------*/
 .speakers {
-  --default-color: #ffffff;
+  --default-color: #2f3138;
+  --heading-color: #0e1b4d;
 }
 
 .speakers .member {
@@ -990,6 +991,11 @@ section,
   inset: auto 0 -44px 0;
   background: rgba(0, 0, 0, 0.6);
   transition: 0.4s;
+}
+
+.speakers .member .member-info h4,
+.speakers .member .member-info span {
+  color: var(--contrast-color);
 }
 
 .speakers .member .member-info-content h4 {
