@@ -1862,6 +1862,31 @@ section,
   text-align: center;
   width: 100%;
 }
+
+/* Force centered labels for speakers/organizers */
+#speakers .member,
+#organizers .member {
+  text-align: center !important;
+}
+
+#speakers .member-info,
+#organizers .member-info {
+  position: static !important;
+  inset: auto !important;
+  background: transparent !important;
+  width: 100% !important;
+  text-align: center !important;
+  padding: 12px 0 0 0 !important;
+}
+
+#speakers .member-info h4,
+#organizers .member-info h4,
+#speakers .member-info span,
+#organizers .member-info span {
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
