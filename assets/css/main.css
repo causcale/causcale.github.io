@@ -1810,11 +1810,11 @@ section,
 
 #speakers .member .member-info span {
   display: block !important;
-  color: color-mix(in srgb, var(--default-color), transparent 25%) !important;
+  color: color-mix(in srgb, var(--heading-color), transparent 25%) !important;
   font-size: calc(16px * var(--font-scale)) !important;
   font-style: normal !important;
 }
-#speakers .member .member-info span { color: var(--default-color) !important; }
+#speakers .member .member-info span { color: var(--heading-color) !important; }
 #speakers .member .member-info h4  { color: var(--heading-color) !important; }
 
 /*--------------------------------------------------------------
