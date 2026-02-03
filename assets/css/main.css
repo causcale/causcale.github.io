@@ -1768,6 +1768,22 @@ section,
   font-style: normal;             /* optional: remove italic */
 }
 
+/* Organizers: simple text below photo and always show affiliation */
+#organizers .member .member-info {
+  position: static !important;
+  inset: auto !important;
+  background: transparent !important;
+  padding: 12px 0 0 0 !important;
+}
+
+#organizers .member .member-info span {
+  display: block !important;
+  font-size: calc(16px * var(--font-scale)) !important;
+  color: color-mix(in srgb, var(--default-color), transparent 25%) !important;
+  font-style: normal !important;
+  margin-top: 4px;
+}
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
