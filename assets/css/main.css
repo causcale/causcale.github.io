@@ -1814,6 +1814,23 @@ section,
 }
 #organizers .member-info { background: red !important; }
 
+/* Force readable text for speakers/organizers */
+.speakers {
+  --default-color: #2f3138;
+  --heading-color: #0e1b4d;
+}
+
+.speakers .member h4,
+.speakers .member span {
+  color: var(--default-color);
+}
+
+/* Keep overlay text readable */
+.speakers .member .member-info h4,
+.speakers .member .member-info span {
+  color: #ffffff;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
