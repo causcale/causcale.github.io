@@ -1788,6 +1788,14 @@ section,
 #speakers .member .member-info span { color: var(--heading-color) !important; }
 #speakers .member .member-info h4  { color: var(--heading-color) !important; }
 
+/* Force organizer text to be visible (template likely sets opacity:0 until hover) */
+#organizers .member .member-info{
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
+
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
