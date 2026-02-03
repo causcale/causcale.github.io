@@ -1709,6 +1709,24 @@ section,
   object-position: center;
   display: block;
 }
+
+/* Disable hover animation/overlay on speaker cards */
+#speakers .member,
+#speakers .member * {
+  transition: none !important;
+  transform: none !important;
+}
+
+#speakers .member .social,
+#speakers .member .member-info {
+  opacity: 1 !important;
+}
+
+#speakers .member .member-img::before,
+#speakers .member .member-img::after {
+  display: none !important;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
