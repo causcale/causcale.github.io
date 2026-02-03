@@ -1831,6 +1831,18 @@ section,
   color: #ffffff;
 }
 
+/* Organizers: use dark text instead of white overlay */
+#organizers .member .member-info {
+  position: static;
+  background: transparent;
+  inset: auto;
+  padding: 12px 0 0 0;
+}
+
+#organizers .member .member-info h4,
+#organizers .member .member-info span {
+  color: var(--heading-color);
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
