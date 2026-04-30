@@ -335,6 +335,36 @@ Reasoning about interventions, the core of causality, is fundamental to solving 
     </div>
 
   </div>
+
+  <div class="mt-5" data-aos="fade-up" data-aos-delay="300">
+    <h3 class="mb-4">Invited Talks</h3>
+
+    <div class="mb-4">
+      <h4>Mihaela van der Schaar <small class="text-muted">(University of Cambridge)</small></h4>
+      <p class="mb-2"><strong>Title:</strong> Scaling Causal Reasoning</p>
+      <p>Causal reasoning requires answering interventional and counterfactual questions about the mechanisms that generate data&mdash;not just predicting what comes next. Yet today&rsquo;s large-scale machine learning systems struggle precisely where this capability matters most: in complex, real-world settings where causal structure is large, only partially specified, and rarely accompanied by ground-truth supervision. This creates a fundamental bottleneck: how can we scale causal reasoning when both the underlying systems and the signals needed to learn them are inherently incomplete? In this talk, I will argue that the core challenge is not simply one of model capacity, but of representation and supervision. Real-world causal systems must be formalized, queried, and stress-tested in ways that current learning paradigms do not naturally support. I will outline a new perspective on scaling causal reasoning&mdash;one that reframes the problem as constructing and leveraging causal simulators capable of supporting interventional and counterfactual queries at scale. This perspective opens the door to new forms of supervision, evaluation, and generalization for causal reasoning in machine learning. This is joint work with my students Anita Kriz and Nicolas Astorga.</p>
+    </div>
+
+    <div class="mb-4">
+      <h4>Francesco Locatello <small class="text-muted">(Institute of Science and Technology Austria)</small></h4>
+      <p class="mb-2"><strong>Title:</strong> Causal Inference in Scientific Experiments with Large Models</p>
+      <p>Deciphering raw, high-dimensional, and temporal observations into causal knowledge is a key component of the scientific discovery process and a longstanding challenge for AI. Across scientific disciplines, the data that can be recorded do not directly expose causal variables, which often remain latent and only indirectly measured. In this talk, I present our recent work on accurate causal effect estimation from raw experimental data using deep learning and its interdisciplinary applications. I begin by defining when a predictor constitutes a causally valid proxy of a latent variable, and how deep learning models can process entire experiments to yield correct causal conclusions. I then show how AI models enable &ldquo;looking at the data first&rdquo; and discovering treatment effects without supervision.</p>
+    </div>
+
+    <div class="mb-4">
+      <h4>Sara Magliacane <small class="text-muted">(University of Amsterdam)</small></h4>
+      <p class="mb-2"><strong>Title:</strong> Scalable Causal Discovery for Statistically Efficient Causal Inference</p>
+      <p>Causal discovery methods can identify valid adjustment sets for causal effect estimation for a small set of target variables, even when the underlying causal graph is unknown. Global causal discovery methods focus on learning the whole causal graph and therefore enable the recovery of optimal adjustment sets, i.e., sets with the lowest asymptotic variance, but they quickly become computationally prohibitive as the number of variables grows. Local causal discovery methods offer a more scalable alternative by focusing on the local neighbourhood of the target variables, but they are restricted to statistically suboptimal adjustment sets.</p>
+      <p>In this talk, I will present two recent methods that combine the computational efficiency of local methods with the statistical optimality of global causal discovery methods. First, I will describe the Sequential Non-Ancestor Pruning (SNAP) framework (<a href="https://arxiv.org/abs/2502.07857">arxiv.org/abs/2502.07857</a>). SNAP progressively identifies and prunes definite non-ancestors of the target variables during the causal discovery process. We show that the resulting subgraph is sufficient for identifying the causal relations between the targets and their efficient adjustment sets. Then, I will introduce Local Optimal Adjustments Discovery (LOAD) (<a href="https://arxiv.org/abs/2502.07857">arxiv.org/abs/2502.07857</a>), a method for identifying optimal adjustment sets from local information. As a first step, LOAD identifies the causal relation between the targets and tests if the causal effect is identifiable by using only local information. If it is identifiable, it then finds the possible descendants of the treatment and infers the optimal adjustment set as the parents of the outcome in a modified forbidden projection. Otherwise, it returns the locally valid parent adjustment sets based on the learned local structure. For both methods, I will show that on our evaluation they outperform global methods in scalability, while providing more accurate effect estimation than local methods.</p>
+    </div>
+
+    <div class="mb-4">
+      <h4>Alexander D'Amour <small class="text-muted">(Google DeepMind)</small></h4>
+      <p class="mb-2"><strong>Title:</strong> Synthetic Experiments with Generative AI are Secretly Observational Studies</p>
+      <p>LLMs (large language models) and other generative AI models have shown promise for simulating natural phenomena. For example, LLMs are increasingly used to simulate users of interactive systems, such as conversational AI agents. In these cases, an LLM is initialized with a persona and instructions to play the role of that person; the LLM then interacts with the system, and often generates plausible user interactions. This setup gives the impression that the generative AI model can operate as a structural model: with the model as a user simulator, it seems that we can generate counterfactual outcomes by intervening on the simulation setting to answer causal questions. In this talk, we show a wrinkle in this story: although generative models provide a simulator-like interface, the data they generate is confounded. We argue that this confounding stems from generative models operating as intended, and explore how causal adjustment strategies can begin to address internal validity concerns. The work raises new questions in the broader conversation about how generative models can and cannot be used as causal world models.</p>
+    </div>
+
+  </div>
 </div>
 </section><!-- /Speakers Section -->
 
